@@ -14,8 +14,6 @@
 class Dispatcher extends \Phalcon\Mvc\Dispatcher
 {	
 	public function beforeNotFoundAction() {
-		echo 'haha';
-
 		return false;
 	}
 }
