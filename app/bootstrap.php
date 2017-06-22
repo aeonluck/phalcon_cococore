@@ -45,7 +45,7 @@ $loader->registerDirs($importDirs())->register();
 
 $di = new \Phalcon\DI\FactoryDefault();
 
-// 配置发器与事件监听
+// 配置分发器与事件监听
 $di->set('dispatcher', function() use ($di) {
 	$eventManager = $di->getShared('eventsManager');
 	$listener = new Listener();
