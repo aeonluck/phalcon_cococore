@@ -14,6 +14,6 @@
 class IndexAction extends Action
 {
 	public function run() {
-		echo 'Hell, the Phalcon-cococore.'
+		echo 'Hello, the Phalcon-cococore.'
 	}
 }
